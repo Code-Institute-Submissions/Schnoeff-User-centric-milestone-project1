@@ -6,11 +6,11 @@
      background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-         width: 100%;
-        height: 150px;
-        margin-top: 30px;
+         max-width: 100%;
+        min-height: 160px;
+        margin-top: 20px;
         margin-left: 20px;
-               border-radius: 50%;
+        margin-right: 20px;
 }
 
 /*-----------------------------------------------Colors*/
@@ -18,15 +18,11 @@
      text-transform: uppercase;
  }
 
-.ui-menu-color {
-    background-color:rgb(9, 218, 9);
-}
-
-
+  
 /*-----------------------------------------------Nav Bars*/
 
 .menuitem span {
-        display: block;
+        display: inline;
         width: 100%;
         padding-top: 5px;
         text-align: center;
@@ -34,31 +30,21 @@
         font-size: 18px;
         font-weight: 300;
         letter-spacing: 2px;
+        text-decoration:none;
 }
 
-.menuitem{
-color:red;
-display:inline-block;
-height:50px;
-width:80px;
-margin-left:15%;
-margin-right:30px;
-margin-top:30px;
 
-}
 
-.list-inline-item:not(:last-child) {
-    margin: 0;
-}
-
-.menucontainer {
+.navcontainer {
+    display:inline-block;
     font-size: 0;
+    margin-top:20px;
+    padding:0;
+    width:1200px;
+    
 }
 
-#nav li {
-    font-size: 14px;
-    padding: 0;
-}
+
 /*-----------------------------------------------Hover*/
 
 }
