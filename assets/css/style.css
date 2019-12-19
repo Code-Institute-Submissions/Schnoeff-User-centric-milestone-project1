@@ -9,7 +9,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: green;
+    
     font-family: 'Petit Formal Script', cursive;
 }
 
@@ -17,12 +17,16 @@
     padding-right:25px;
     font-size:40px;
     padding-top:0;
-    background-color:white;
+    background-color:rgb(100, 34, 4, 0);
     font-family: 'Great Vibes', cursive;
 }
 
 .nav-link{
 color:white;
+}
+
+.bg-light{
+    background-color:rgb(100, 34, 4, 0.95)!important;
 }
 
 /*----------------------------------------------------------hover*/
@@ -66,4 +70,35 @@ color:white;
 
  .footercontent{
      color:#ebe9e9;
+ }
+
+  .fa{
+     padding:10px;
+     color:white;
+ }
+
+ .fa li a i:hover{
+     background-color:red;
+ }
+
+  body { 
+   
+    background-image: url("http://mirafra.com/wp-content/uploads/2016/10/Light-Grey-Background-Hd-5-1024x640.jpg"); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover; 
+ }
+
+ .frontimg{
+     padding-bottom:50px;
+     
+ }
+
+ .about{
+     padding-left:15px;
+ }
+
+ .aboutheader{
+     padding-left:15px;
  }
