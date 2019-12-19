@@ -1,34 +1,43 @@
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap,100,200,300,400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Petit+Formal+Script&display=swap,100,200,300,400,500,600,700,800');
 
+/*----------------------------------------------------------navbar*/
 .nav-item{
     padding-right:30px;
-}
-
-.navbar-collapse{
+    
     
 }
 
-.navbar-brand{
-    padding-top:0;
+.navbar-light .navbar-nav .nav-link {
+    color: green;
+    font-family: 'Petit Formal Script', cursive;
 }
 
 .navbar-brand{
     padding-right:25px;
     font-size:40px;
+    padding-top:0;
+    background-color:white;
+    font-family: 'Great Vibes', cursive;
 }
 
 .nav-link{
 color:white;
 }
 
+/*----------------------------------------------------------hover*/
+
 .hvr-underline-from-left:before{
-    color:brown;
+    background-color:brown;
 }
+
+/*----------------------------------------------------------headings*/
 
 .display-1{
     text-align: center;
     padding-top:40px;
     color:red;
+    font-family: 'Great Vibes', cursive;
 }
 
 .alert{
@@ -37,7 +46,24 @@ text-align:center;
 background-color:darkred;
 color:white;
 }
+ .alert:hover{
+     text-decoration:none;
+     color:white;
+     
+      }
+ 
+ /*----------------------------------------------------------Footer*/
 
-.display-1{
-    font-family: 'Great Vibes', cursive;
-}
+ .container-fluid{
+     background-color:rgb(100, 34, 4);
+ }
+
+ .footerheadings{
+     padding-top:10px;
+     color:white;
+     font-family: 'Petit Formal Script', cursive;
+ }
+
+ .footercontent{
+     color:#ebe9e9;
+ }
