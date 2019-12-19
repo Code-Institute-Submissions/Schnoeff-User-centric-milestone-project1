@@ -11,6 +11,9 @@
 .navbar-light .navbar-nav .nav-link {
     
     font-family: 'Petit Formal Script', cursive;
+    font-size:25px;
+    font-weight:800;
+    color:white;
 }
 
 .navbar-brand{
@@ -40,6 +43,7 @@ color:white;
 .display-1{
     text-align: center;
     padding-top:40px;
+    padding-bottom:40px;
     color:red;
     font-family: 'Great Vibes', cursive;
 }
@@ -66,6 +70,7 @@ color:white;
      padding-top:10px;
      color:white;
      font-family: 'Petit Formal Script', cursive;
+     text-decoration:underline;
  }
 
  .footercontent{
@@ -81,9 +86,14 @@ color:white;
      background-color:red;
  }
 
+ .contactnumber{
+     color:white;
+     font-family: 'Petit Formal Script', cursive;
+ }
+
   body { 
    
-    background-image: url("http://mirafra.com/wp-content/uploads/2016/10/Light-Grey-Background-Hd-5-1024x640.jpg"); 
+    background-image: url("background.jpg"); 
     background-position: center; 
     background-repeat: no-repeat; 
     background-attachment: fixed; 
@@ -92,6 +102,11 @@ color:white;
 
  .frontimg{
      padding-bottom:50px;
+     height:400px;
+     width:400px;
+     padding-right:25px;
+     
+     
      
  }
 
