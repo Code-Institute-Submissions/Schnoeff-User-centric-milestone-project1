@@ -4,8 +4,6 @@
 /*----------------------------------------------------------navbar*/
 .nav-item{
     padding-right:30px;
-    
-    
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -43,7 +41,7 @@ color:white;
 .display-1{
     text-align: center;
     padding-top:40px;
-    padding-bottom:40px;
+    padding-bottom:20px;
     color:red;
     font-family: 'Great Vibes', cursive;
 }
@@ -62,7 +60,7 @@ color:white;
  
  /*----------------------------------------------------------Footer*/
 
- .container-fluid{
+ .footer{
      background-color:rgb(100, 34, 4);
  }
 
@@ -100,20 +98,57 @@ color:white;
     background-size: cover; 
  }
 
+/*----------------------------------------------------------content*/
+
  .frontimg{
-     padding-bottom:50px;
-     height:400px;
-     width:400px;
+     padding-bottom:25px;
+     height:100%;
+     width:100%;
      padding-right:25px;
-     
-     
-     
+     padding-left:25px;
  }
 
  .about{
      padding-left:15px;
+     float: left;
  }
 
  .aboutheader{
      padding-left:15px;
+ }
+
+ .jumbotron{
+     text-align:center;
+     color:black;
+     margin-right:30px;
+     margin-left:30px;
+     background-image: url("coffee.jpg");
+     background-size:cover;
+     background-repeat:no-repeat;
+ }
+
+.lead{
+    color:red;
+    font-weight:600;
+    
+}
+
+
+.text-muted {
+    color:white!important;
+} }
+
+
+ .btn-primary{
+     margin-top:25px;
+     background-color:darkred;
+     color:white;
+     border-color:darkred;
+     
+ }
+
+ .btn-primary:hover{
+     background-color:green;
+     color:white;
+     border-color:green;
  }
