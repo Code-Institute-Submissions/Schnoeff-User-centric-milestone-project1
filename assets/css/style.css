@@ -181,3 +181,27 @@ color:white;
  .menu{
      padding-right:45px;
  }
+
+ .reviewer{
+     border-radius:50%;
+     height:125px;
+     width:125px;
+ }
+
+.reviews{
+    padding-left:50px;
+    padding-bottom:70px;
+}
+
+.reviewcomment{
+    font-size:16px;
+}
+
+
+ .quoteheading{
+    padding-left:90px;
+ }
+
+ .blockquote{
+     padding-left:30px;
+ }
