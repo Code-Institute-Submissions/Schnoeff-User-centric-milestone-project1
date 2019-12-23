@@ -113,8 +113,10 @@ color:white;
      float: left;
  }
 
- .aboutheader{
-     padding-left:15px;
+.aboutheader{
+     
+     text-align:center;
+     padding-bottom:20px;
  }
 
  .jumbotron{
@@ -151,4 +153,31 @@ color:white;
      background-color:green;
      color:white;
      border-color:green;
+ }
+
+
+ .seasonallist{
+     column-count: 2;
+     list-style-type: none;
+     
+     
+ }
+
+ .liheading{
+     text-align:center;
+     padding-bottom:15px;
+ }
+
+ .menuitem{
+     text-align:center;
+     padding-bottom:35px;
+ }
+
+ .menuheading{
+     text-align:center;
+     padding-bottom:50px;
+ }
+
+ .menu{
+     padding-right:45px;
  }
