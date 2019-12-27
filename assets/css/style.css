@@ -98,7 +98,7 @@ color:white;
     background-size: cover; 
  }
 
-/*----------------------------------------------------------content*/
+/*----------------------------------------------------------Home page*/
 
  .frontimg{
      padding-bottom:25px;
@@ -128,6 +128,8 @@ color:white;
      background-size:cover;
      background-repeat:no-repeat;
  }
+
+
 
 .lead{
     color:red;
@@ -182,16 +184,19 @@ color:white;
      padding-right:45px;
  }
 
+/*----------------------------------------------------------Reviews*/
+
+
  .reviewer{
      border-radius:50%;
-     height:125px;
-     width:125px;
+     height:100px;
+     width:100px;
  }
 
 .reviews{
-    padding-left:50px;
-    padding-bottom:70px;
-}
+    padding-bottom:70px;    
+   
+    }
 
 .reviewcomment{
     font-size:16px;
@@ -199,9 +204,28 @@ color:white;
 
 
  .quoteheading{
-    padding-left:90px;
+    font-family: 'Petit Formal Script', cursive;
  }
 
  .blockquote{
-     padding-left:30px;
+     padding-left:20px;
  }
+
+ .jumbotron2{
+     text-align:center;
+     color:black;
+     margin-right:30px;
+     margin-left:30px;
+     background-image: url("coffee.jpg");
+     background-size:cover;
+     background-repeat:no-repeat;
+ }
+
+.form-row{
+    margin-left:60px;
+    margin-right:60px;
+}
+    
+.form-control{
+ 
+}
