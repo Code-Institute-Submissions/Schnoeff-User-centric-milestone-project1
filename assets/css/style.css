@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap,100,200,300,400,500,600,700,800');
-@import url('https://fonts.googleapis.com/css?family=Petit+Formal+Script&display=swap,100,200,300,400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap,100,200,300,400,500,600,700,800,9');
+@import url('https://fonts.googleapis.com/css?family=Petit+Formal+Script&display=swap,100,200,300,400,500,600,700,800,900');
 
 /*----------------------------------------------------------navbar*/
 .nav-item{
@@ -194,7 +194,7 @@ color:white;
  }
 
 .reviews{
-    padding-bottom:70px;    
+    padding-bottom:50px;    
    
     }
 
@@ -221,11 +221,41 @@ color:white;
      background-repeat:no-repeat;
  }
 
-.form-row{
-    margin-left:60px;
-    margin-right:60px;
+
+
+
+.formheader{
+   font-weight:600;
 }
+
+.form-group-feedback{
+    padding-left:10%;
+    padding-right:10%;
+    padding-bottom:20px;
+    font-family: 'Petit Formal Script', cursive;
+    font-weight:300;
+
+}
+
+.btn-primary-feedback{
+    background-color:darkred;
+    color:white;
+}
+
+.btn-primary-feedback:hover{
+background-color:green;
+color:white;
+}
+
+.faqs{
+    column-count:2;
+    list-style-type: none;
+    }
+
+    .faqheader{
+        text-align:left;
+        font-family: 'Petit Formal Script', cursive;
+        padding-bottom:40px;
+    }
+
     
-.form-control{
- 
-}
