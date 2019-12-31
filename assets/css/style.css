@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Petit+Formal+Script&display=swap,100,200,300,400,500,600,700,800,900');
 
 /*----------------------------------------------------------navbar*/
+.body {
+ background-image: url("background.jpg");
+}
+
 .nav-item{
     padding-right:30px;
 }
@@ -50,6 +54,7 @@ color:white;
 margin:0;
 text-align:center;
 background-color:darkred;
+border-color:darkred;
 color:white;
 }
  .alert:hover{
@@ -143,7 +148,7 @@ color:white;
 } }
 
 
- .btn-primary{
+ .btn-primary-1{
      margin-top:25px;
      background-color:darkred;
      color:white;
@@ -151,17 +156,19 @@ color:white;
      
  }
 
- .btn-primary:hover{
+ .btn-primary-1:hover{
      background-color:green;
      color:white;
      border-color:green;
  }
 
+/*----------------------------------------------------------Menu*/
+
 
  .seasonallist{
      column-count: 2;
      list-style-type: none;
-     
+         
      
  }
 
@@ -172,8 +179,9 @@ color:white;
 
  .menuitem{
      text-align:center;
-     padding-bottom:35px;
+     padding-bottom:20px;
  }
+ 
 
  .menuheading{
      text-align:center;
@@ -247,15 +255,31 @@ background-color:green;
 color:white;
 }
 
+/*----------------------------------------------------------Faq's*/
+
+
 .faqs{
     column-count:2;
     list-style-type: none;
+    text-align:center;
+    font-family: 'Petit Formal Script', cursive;
     }
 
     .faqheader{
         text-align:left;
         font-family: 'Petit Formal Script', cursive;
         padding-bottom:40px;
+        padding-left:25px;
     }
 
+.faqitem{
+    padding-bottom:20px;
+    font-size:18px;
     
+   }
+    .faqhead{
+        font-family: 'Petit Formal Script', cursive;
+        font-weight:900;
+    }
+
+   
