@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap,100,200,300,400,500,600,700,800,9');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap,100,200,300,400,500,600,700,800,900');
 @import url('https://fonts.googleapis.com/css?family=Petit+Formal+Script&display=swap,100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap,100,200,300,400,500,600,700,800,900');
 
 /*----------------------------------------------------------navbar*/
 .body {
@@ -8,11 +9,15 @@
 
 .nav-item{
     padding-right:30px;
+    font-family: 'Petit Formal Script', cursive, sans-serif;
+    
 }
+
+
 
 .navbar-light .navbar-nav .nav-link {
     
-    font-family: 'Petit Formal Script', cursive;
+    font-family: 'Petit Formal Script', cursive sans-serif;
     font-size:25px;
     font-weight:800;
     color:white;
@@ -23,11 +28,12 @@
     font-size:40px;
     padding-top:0;
     background-color:rgb(100, 34, 4, 0);
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Great Vibes', cursive, sans-serif;
 }
 
 .nav-link{
 color:white;
+
 }
 
 .bg-light{
@@ -47,7 +53,7 @@ color:white;
     padding-top:40px;
     padding-bottom:20px;
     color:red;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Great Vibes', cursive, sans-serif;
 }
 
 .alert{
@@ -72,7 +78,7 @@ color:white;
  .footerheadings{
      padding-top:10px;
      color:white;
-     font-family: 'Petit Formal Script', cursive;
+     font-family: 'Petit Formal Script', cursive, sans-serif;
      text-decoration:underline;
  }
 
@@ -91,7 +97,7 @@ color:white;
 
  .contactnumber{
      color:white;
-     font-family: 'Petit Formal Script', cursive;
+     font-family: 'Petit Formal Script', cursive, sans-serif;
  }
 
   body { 
@@ -164,34 +170,40 @@ color:white;
 
 /*----------------------------------------------------------Menu*/
 
-
- .seasonallist{
-     column-count: 2;
-     list-style-type: none;
-         
-     
- }
-
- .liheading{
-     text-align:center;
-     padding-bottom:10px;
- }
-
- .menuitem{
-     text-align:center;
-     padding-bottom:20px;
- }
- 
-
  .menuheading{
      text-align:center;
      padding-bottom:50px;
+     text-decoration:underline;
+     
  }
 
  .menu{
      padding-right:45px;
  }
 
+.card{
+    padding-right:0;
+    margin:10px;
+    }
+ 
+ .card-text{
+     font-size:13px;
+     font-family: 'Courgette', cursive, sans-serif;
+     font-weight:200;
+ }
+
+.card-title{
+    font-size:16px;
+    font-family: 'Petit Formal Script', cursive, sans-serif;
+    font-weight:700;
+}
+
+
+.sectionheader{
+    text-align:center;
+    font-family: 'Petit Formal Script', cursive, sans-serif;
+    padding-top:10px;
+}
 /*----------------------------------------------------------Reviews*/
 
 
@@ -212,7 +224,7 @@ color:white;
 
 
  .quoteheading{
-    font-family: 'Petit Formal Script', cursive;
+    font-family: 'Petit Formal Script', cursive, sans-serif;
  }
 
  .blockquote{
@@ -240,7 +252,7 @@ color:white;
     padding-left:10%;
     padding-right:10%;
     padding-bottom:20px;
-    font-family: 'Petit Formal Script', cursive;
+    font-family: 'Petit Formal Script', cursive, sans-serif;
     font-weight:300;
 
 }
@@ -262,12 +274,12 @@ color:white;
     column-count:2;
     list-style-type: none;
     text-align:center;
-    font-family: 'Petit Formal Script', cursive;
+    font-family: 'Petit Formal Script', cursive, sans-serif;
     }
 
     .faqheader{
         text-align:left;
-        font-family: 'Petit Formal Script', cursive;
+        font-family: 'Petit Formal Script', cursive, sans-serif;
         padding-bottom:40px;
         padding-left:25px;
     }
@@ -278,7 +290,7 @@ color:white;
     
    }
     .faqhead{
-        font-family: 'Petit Formal Script', cursive;
+        font-family: 'Petit Formal Script', cursive, sans-serif;
         font-weight:900;
     }
 
