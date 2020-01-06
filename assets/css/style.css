@@ -151,7 +151,7 @@ color:white;
 
 .text-muted {
     color:white!important;
-} }
+} 
 
 
  .btn-primary-1{
@@ -169,14 +169,6 @@ color:white;
  }
 
 /*----------------------------------------------------------Menu*/
-
- .menuheading{
-     text-align:center;
-     padding-bottom:50px;
-     text-decoration:underline;
-     
- }
-
  .menu{
      padding-right:45px;
  }
@@ -203,6 +195,7 @@ color:white;
     text-align:center;
     font-family: 'Petit Formal Script', cursive, sans-serif;
     padding-top:10px;
+    text-decoration: underline;
 }
 /*----------------------------------------------------------Reviews*/
 
@@ -270,28 +263,24 @@ color:white;
 /*----------------------------------------------------------Faq's*/
 
 
-.faqs{
-    column-count:2;
-    list-style-type: none;
-    text-align:center;
+.question{
+   padding-bottom:15px;
+   text-align: center;
     font-family: 'Petit Formal Script', cursive, sans-serif;
+    font-weight:900;
+    font-size:26px;
     }
 
-    .faqheader{
-        text-align:left;
-        font-family: 'Petit Formal Script', cursive, sans-serif;
-        padding-bottom:40px;
-        padding-left:25px;
-    }
-
-.faqitem{
+.answer{
     padding-bottom:20px;
+     text-align: center;
+    font-family: 'Courgette', cursive, sans-serif;
     font-size:18px;
-    
-   }
-    .faqhead{
-        font-family: 'Petit Formal Script', cursive, sans-serif;
-        font-weight:900;
-    }
+    font-weight:0;
+}
+
+
+
+  
 
    
