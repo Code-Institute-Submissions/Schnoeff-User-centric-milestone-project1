@@ -3,17 +3,11 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette&display=swap,100,200,300,400,500,600,700,800,900');
 
 /*----------------------------------------------------------navbar*/
-.body {
- background-image: url("background.jpg");
-}
-
 .nav-item{
     padding-right:30px;
     font-family: 'Petit Formal Script', cursive, sans-serif;
     
 }
-
-
 
 .navbar-light .navbar-nav .nav-link {
     
@@ -25,11 +19,13 @@
 
 .navbar-brand{
     padding-right:25px;
-    font-size:40px;
+    font-size:50px;
     padding-top:0;
-    background-color:rgb(100, 34, 4, 0);
+    color:red;
     font-family: 'Great Vibes', cursive, sans-serif;
+    
 }
+
 
 .nav-link{
 color:white;
@@ -48,7 +44,7 @@ color:white;
 
 /*----------------------------------------------------------headings*/
 
-.display-1{
+.display-1{ /*----------------------------------------------------------Page titles*/
     text-align: center;
     padding-top:40px;
     padding-bottom:20px;
@@ -56,7 +52,7 @@ color:white;
     font-family: 'Great Vibes', cursive, sans-serif;
 }
 
-.alert{
+.alert{ /*----------------------------------------------------------Alert bar at the top of every page*/
 margin:0;
 text-align:center;
 background-color:darkred;
@@ -69,7 +65,7 @@ color:white;
      
       }
  
- /*----------------------------------------------------------Footer*/
+ /*------------------------------------------------------------------------------------------------------------------Footer*/
 
  .footer{
      background-color:rgb(100, 34, 4);
@@ -82,18 +78,19 @@ color:white;
      text-decoration:underline;
  }
 
- .footercontent{
+ .footercontent{ 
      color:#ebe9e9;
  }
 
-  .fa{
+  .fa{ /*----------------------------------------------------------Social links*/
      padding:10px;
      color:white;
+     font-size:30px;
      
  }
 
- .fa li a i:hover{
-     background-color:red;
+ .fa:hover{
+     color:red;
  }
 
  .contactnumber{
@@ -101,7 +98,7 @@ color:white;
      font-family: 'Petit Formal Script', cursive, sans-serif;
  }
 
-  body { 
+  body {  /*----------------------------------------------------------Page background*/
    
     background-image: url("background.jpg"); 
     background-position: center; 
@@ -110,29 +107,43 @@ color:white;
     background-size: cover; 
  }
 
-/*----------------------------------------------------------Home page*/
+.contactnumber{
+    text-decoration:underline;
+    font-size:20px;
+}
 
- .frontimg{
+/*-----------------------------------------------------------------------------------------------------------------Home page*/
+
+ .frontimg{ /*----------------------------------------------------------Home page images*/
      padding-bottom:25px;
      height:100%;
      width:100%;
-     padding-right:25px;
-     padding-left:25px;
+     padding-right:10px;
+     padding-left:10px; 
+ }
+
+.aboutheader{
+    padding-bottom:20px;
+     text-align:center;
+     text-decoration:underline;
+     color:brown;
+     font-family:'Courgette', cursive, sans-serif;
+     font-size:30px;  
+     
  }
 
  .about{
      padding-left:15px;
-     float: left;
- }
-
-.aboutheader{
+     font-size:22px;
+     color:darkred;
+     font-family:'Courgette', cursive, sans-serif; 
      
-     text-align:center;
-     padding-bottom:20px;
  }
 
- .jumbotron{
+ 
+ .jumbotron{  /*----------------------------------------------------------Newsletter subscription box*/
      text-align:center;
+     font-size:26px;
      color:white;
      margin-right:30px;
      margin-left:30px;
@@ -143,11 +154,7 @@ color:white;
      font-weight:bold;
  }
 
-.jumbotron. background{
-    opacity:0.5;
-}
-
-.lead{
+.lead{    /*----------------------------------------------------------Jumbotron header*/
     color:white;
     font-weight:600;
     
@@ -160,7 +167,7 @@ color:white;
 } 
 
 
- .btn-primary-1{
+ .btn-primary-1{ /*----------------------------------------------------------Submit button*/
      margin-top:10px;
      background-color:darkred;
      color:white;
@@ -174,19 +181,21 @@ color:white;
      border-color:green;
  }
 
- .news{
+ .news{ /*----------------------------------------------------------form input box*/
      width:50%;
      display:inline-block;
            }
 
+.display-5{
+    font-size:30px;
+}
 
-
-/*----------------------------------------------------------Menu*/
+/*----------------------------------------------------------------------------------------------------------------------------Menu*/
  .menu{
      padding-right:45px;
  }
 
-.card{
+.card{ /*----------------------------------------------------------Each menu item*/
     padding-right:0;
     margin:10px;
     }
@@ -204,16 +213,18 @@ color:white;
 }
 
 
-.sectionheader{
+.sectionheader{ /*----------------------------------------------------------Menu catagories*/
     text-align:center;
+    text-decoration: underline;
     font-family: 'Petit Formal Script', cursive, sans-serif;
     padding-top:10px;
-    text-decoration: underline;
+    font-size:40px;
+    
 }
-/*----------------------------------------------------------Reviews*/
+/*-----------------------------------------------------------------------------------------------------------------------Reviews*/
 
 
- .reviewer{
+ .reviewer{ /*----------------------------------------------------------reviewer image*/
      border-radius:50%;
      height:100px;
      width:100px;
@@ -221,11 +232,13 @@ color:white;
 
 .reviews{
     padding-bottom:50px;    
-   
+   font-family: 'Petit Formal Script', cursive, sans-serif;
+   padding-left:45px;
     }
 
 .reviewcomment{
     font-size:16px;
+    font-family: 'Courgette', cursive, sans-serif;
 }
 
 
@@ -237,24 +250,11 @@ color:white;
      padding-left:20px;
  }
 
- .jumbotron2{
-     text-align:center;
-     color:black;
-     margin-right:30px;
-     margin-left:30px;
-     background-image: url("coffee.jpg");
-     background-size:cover;
-     background-repeat:no-repeat;
- }
-
-
-
-
-.formheader{
+ .formheader{
    font-weight:600;
 }
 
-.form-group-feedback{
+.form-group-feedback{ /*----------------------------------------------------------Review submission*/
     padding-left:10%;
     padding-right:10%;
     padding-bottom:20px;
@@ -268,12 +268,12 @@ color:white;
     color:white;
 }
 
-.btn-primary-feedback:hover{
+.btn-primary-feedback:hover{ 
 background-color:green;
 color:white;
 }
 
-/*----------------------------------------------------------Faq's*/
+/*---------------------------------------------------------------------------------------------------------------Faq's*/
 
 
 .question{
@@ -281,14 +281,14 @@ color:white;
    text-align: center;
     font-family: 'Petit Formal Script', cursive, sans-serif;
     font-weight:900;
-    font-size:26px;
+    font-size:30px;
     }
 
 .answer{
     padding-bottom:20px;
      text-align: center;
     font-family: 'Courgette', cursive, sans-serif;
-    font-size:18px;
+    font-size:20px;
     font-weight:0;
 }
 
