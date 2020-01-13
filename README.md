@@ -18,5 +18,37 @@ Another scenario could be that an old couple that own a dog are wanting to go ou
 
 Before starting to make my project i drew up a small mock website on a piece of paper outlining what i would like to include on each page and how i would like it to work. This made the development process much easier as i had the design in front of me at all times and all i had to do was make it. I have attached pictures of the drawings as a pdf file in the directory.
 
+Features
+
+Newsletter sign up - This allows the user to sign up to a weekly newsletter containing promotional details and events by inputting their email address into the from.
+
+Review submission - This allows the user to leave a review of the coffee shop by filling in the form including their email address, name and coment box.
+
+Social media links - This allows the user to click on any of the social media icons located in the footer of the page. Doing so will have them redirected to another tab where they will arrive at that social media page.
+
+Features Left to Implement
+
+In the future i would like to add a google maps feature where you can see exactly where the coffee shop is and how to get there all from within the website. This will make the user experience better ad they will no longer have the need to remember or copy the address down and paste it into another browser tab. Using the google maps feature, i would also like to implement a store locator feature which will be useful when the coffee shop grows and there are multiple shops located around the country.
+
+Another feature i would like to add is a language changer. This would be useful for anoyone who does not speak or understand English. This coul be controlled by a button or dropdown menu in the op corner which will allow the user to change the page language. I understand that when i choose to implement this feature i will need to know the language or use other resoruces to translate from one language to another accurately.
+
+Technologies used
+
+Bootstrap - I used https://getbootstrap.com/ in my project to create the jumbotron located on the home page and the form section that is located on the reviews page. I also used boostrap for guidance on creating the navigation bar. I used bootstrap for these parts because it did the elements exactly how i wanted them and it eliminated the chance of error if i typed it up myself.
+
+I used https://picresize.com/ so i could edit all of my images on the menu page to the exact same size so that the layout on the page would look uniform and professional. I used this size because it was a free and easy alternative to other paid editing sofwares like photoshop.
+
+Testing
+
+Throughout the development process i was testing how my website was being effected by any alterations i made in my code such as positioning and sizes. I did this by running the website in a seperate browser tab and using the inspect function. Through this function i was consistently playing around with different sizes, colors and layouts as i could make any changes i wanted whithout effecting the actualy code. This enabled me to pick up on silly mistakes i made like some elements not being responsive on the smallest resolutions. I was also able to pre plan what colors and sizes i wanted to implement without wasting any time on a gamble wether it would work or not. Using the inspect function also reduced the chance for errors because i was already able to see the end result before i added it to the real code. 
+
+I also used a code validator website (https://validator.w3.org/) for both my css and html files throughout the development process. By using this website i was able to keep track of the code i was writing and any mistakes would be flagged up there and then whcih made rectifying them much easier as oppose to waiting until the end of my project then fixes every error i had made. 
+
+Another method of testing i used was sending my website out to other people. I sent the server port link out to a few of my family and friends and ask them to have a play around with the site including but not limited to the navigation features or forms i had. After they had a go with the site i then asked them to give me some feedback on what was good, whats was bad and what could be improved. For example, When i was near the end of my project i asked my girlfriend to have go at using my website and i asked her to get to different parts of the page. Navigating the site saw no issues at all as the navigation buttons were clear, easy to see and understand. The one bit of bad feedback i got was when i asked her to try and use the social links, All of the pages worked fine other than my reviews page whcih had 2 broken links on my Pintrest social link button. It would redirect the user to an error page and would not function as intended. So after taking this feedback onboard i went back and noticed that i had forgot to close the speech marks surrounding the web link. I also asked my girlfriend to try and use on of the input forms i had on the website and fill in some mock details. On both the home page and the reviews page the forms i had made functioned correctly and as intended. I also asked her to try and input unsuitable information or no information at all to see if the forms would not sumbmit it and that also functioned is i wanted it to. I displayed a small box asking the user to input a valid email with a "@" sybol. Through testing this way i am 100% confident that these input boxes work correctly.
+
+
+
+
+
 
 
