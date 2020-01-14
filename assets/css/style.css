@@ -48,8 +48,9 @@ color:white;
     text-align: center;
     padding-top:40px;
     padding-bottom:20px;
-    color:red;
+    color:brown;
     font-family: 'Great Vibes', cursive, sans-serif;
+    font-weight:900;
 }
 
 .alert{ /*----------------------------------------------------------Alert bar at the top of every page*/
