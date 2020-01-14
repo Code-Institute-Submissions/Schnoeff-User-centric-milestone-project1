@@ -64,3 +64,5 @@ The pictures of food also located on both the home page and the menu page were a
 Acknowledgements
 
 I received inspiration for this project from my sister who wanted to start up her own business running a coffee shop and it gave me the idea to make a website to help get her business out there and visible to web users. I also received a few pieces of inspiration from the tutor support team who would recommend alternative methods I could use in my project but without telling me which one to use and exactly how to use it.
+
+I also recieved inspiration for the review page style from on of the video lessons doing the whisky drop practice website.
